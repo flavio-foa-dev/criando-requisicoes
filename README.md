@@ -1,4 +1,4 @@
-## Tecnologias utilizadas
+# Tecnologias utilizadas
 * Javascript
 * NodeJS
 * Json-server
