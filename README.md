@@ -67,3 +67,5 @@
 ```
 - while (lista.firstChild)
 - {lista.removeChild(lista.firstChild.};
+
+lista de movies

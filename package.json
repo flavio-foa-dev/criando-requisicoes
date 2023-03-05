@@ -1,0 +1,33 @@
+{
+  "name": "criando-requisicoes",
+  "version": "1.0.0",
+  "description": "* Javascript * NodeJS * Json-server * HTML * CSS",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "server": "json-server --watch db.json",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch",
+    "test:coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flavio-foa-dev/criando-requisicoes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flavio-foa-dev/criando-requisicoes/issues"
+  },
+  "homepage": "https://github.com/flavio-foa-dev/criando-requisicoes#readme",
+  "dependencies": {
+    "jest": "^29.4.3",
+    "json-server": "^0.17.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
